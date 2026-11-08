@@ -17,7 +17,7 @@ python monitor.py data/new_batch_drifted.csv   # drift ALERT (exit code 1)
 - Drift monitoring: PSI per feature + prediction flag rate; ALERT hole exit code 1 (cron/CI e kaje lage)
 - Tests (API + drift), Dockerfile, GitHub Actions CI (.github/workflows/ci.yml)
 
-## Challenge ##
+#### Challenge ####
 1. monitor.py ke cron/Airflow diye roj chalao, ALERT hole Slack/email pathao
 2. logs/predictions.jsonl theke monitor chalao (real traffic simulation)
 3. Auto-retrain: ALERT hole train.py chalano, notun version e rollback support
