@@ -9,7 +9,7 @@ uvicorn app.main:app --reload               # localhost:8000/docs
 python monitor.py data/new_batch_ok.csv        # drift OK
 python monitor.py data/new_batch_drifted.csv   # drift ALERT (exit code 1)
 
-## Company te ja ja use hoy (ei project e ache)
+## Company te ja ja use hoy (ei project e ache) ##
 - Imbalanced data (fraud ~3.6%): PR-AUC, class_weight, precision-constrained threshold
 - Model registry/versioning: model/registry/<version>/ (model + metrics + drift reference)
 - Experiment log: model/runs.jsonl
