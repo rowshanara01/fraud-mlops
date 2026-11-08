@@ -1,6 +1,6 @@
 #### Fraud Detection (Production-style ML)
 
-## Chalanor niyom
+## Chalanor niyom ##
 pip install -r requirements.txt
 python generate_data.py                     # train data + ok batch + drifted batch
 python train.py                             # compare -> threshold -> versioned save
