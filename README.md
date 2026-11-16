@@ -10,7 +10,7 @@ python monitor.py data/new_batch_ok.csv        # drift OK
 python monitor.py data/new_batch_drifted.csv   # drift ALERT (exit code 1)
 
 #### Company te ja ja use hoy (ei project e ache) ####
-- Imbalanced data (fraud ~3.6%): PR-AUC, class_weight, precision-constrained threshold
+- Imbalanced data (fraud ~3.6%): PR-AUC, class_weight, precision-constrained thresholds it
 - Model registry/versioning: model/registry/<version>/ (model + metrics + drift reference)
 - Experiment log: model/runs.jsonl
 - API: validation, latency, prediction logging (logs/predictions.jsonl), /model-info
