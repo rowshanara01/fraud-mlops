@@ -6,7 +6,7 @@ python generate_data.py                     #### train data + ok batch + drifted
 python train.py                             #### compare -> threshold -> versioned save #
 pytest -q
 uvicorn app.main:app --reload               #### localhost:8000/docs
-python monitor.py data/new_batch_ok.csv        # drift OK
+python monitor.py data/new_batch_ok.csv        ### drift OK
 python monitor.py data/new_batch_drifted.csv   # drift ALERT (exit code 1)
 
 #### Company te ja ja use hoy (ei project e ache) ####
