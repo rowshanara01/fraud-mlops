@@ -3,7 +3,7 @@
 #### Chalanor niyom ####
 pip install -r requirements.txt
 python generate_data.py                     #### train data + ok batch + drifted batch #
-python train.py                             # compare -> threshold -> versioned save #
+python train.py                             #### compare -> threshold -> versioned save #
 pytest -q
 uvicorn app.main:app --reload               # localhost:8000/docs
 python monitor.py data/new_batch_ok.csv        # drift OK
